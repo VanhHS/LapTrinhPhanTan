@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.ToggleGroup?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox prefHeight="200" prefWidth="300" spacing="10" xmlns="http://javafx.com/javafx/16"
+      xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.khaosatthongtin.SurveyController">
+    <RadioButton text="Ten" toggleGroup="$toggleGroup"/>
+    <RadioButton text="Tuoi" toggleGroup="$toggleGroup"/>
+    <RadioButton text="GioiTinh" toggleGroup="$toggleGroup"/>
+    <CheckBox text="Option 4"/>
+    <Button text="Submit" onAction="#submitSurvey"/>
+</VBox>
